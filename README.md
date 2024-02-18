@@ -28,14 +28,13 @@ A distância de Jaro-Winkler, proposta por William E. Winkler em 1990 como uma e
 
 A fórmula para calcular a distância de Jaro-Winkler entre duas strings \( s_1 \) e \( s_2 \) é dada por:
 
-\[
-\text{Jaro-Winkler}(s_1, s_2) = J(s_1, s_2) + P \cdot L \cdot (1 - J(s_1, s_2))
-\]
+<p align="center" style="font-size: 1.5em;"><em>Jaro-Winkler(s<sub>1</sub>, s<sub>2</sub>) = J(s<sub>1</sub>, s<sub>2</sub>) + P * L * (1 - J(s<sub>1</sub>, s<sub>2</sub>))</em></p>
+
 
 onde:
-- \( J(s_1, s_2) \) é a distância de Jaro entre as strings \( s_1 \) e \( s_2 \).
-- \( P \) é um fator de ajuste, geralmente configurado entre 0 e 0.25.
-- \( L \) é o comprimento do prefixo comum mais longo entre as duas strings, limitado a um máximo de 4.
+- *J(s_1, s_2)* é a distância de Jaro entre as strings *s_1* e *s_2*
+- *P* é um fator de ajuste, geralmente configurado entre 0 e 0.25.
+- *L* é o comprimento do prefixo comum mais longo entre as duas strings, limitado a um máximo de 4.
 
 ## Propriedades
 
